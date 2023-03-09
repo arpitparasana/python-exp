@@ -9,7 +9,6 @@ term_to_find = sys.argv[1]
 print("Search term: " + term_to_find)
 file_counter = 0
 file_scanned = []
-matched_line_map = [][]
 i = 0
 j = 0
 for file_name in glob.glob("./**/*.log",recursive=True):
